@@ -19,6 +19,9 @@ metadata {
 		capability "Refresh"
 		capability "Switch"
 		capability "Health Check"
+        capability "momentary"
+        capability "sensor"
+        capability "temperature""
 
 		// Generic
 		fingerprint profileId: "C05E", deviceId: "0000", inClusters: "0006", deviceJoinName: "Light", ocfDeviceType: "oic.d.light" //Generic On/Off Light
